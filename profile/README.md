@@ -1,40 +1,32 @@
-![github](https://github.com/user-attachments/assets/da426baf-927d-49a7-b13c-43fe5cc89d5a)
+![github](https://github.com/user-attachments/assets/d71c14ae-e761-4cdc-9d21-99a707b9ac7e)
 
-# Revenant 🩶
+Revenant is a high-performance, modular ecosystem of low-level system utilities for Windows, meticulously crafted for unparalleled control, speed, and clarity. Built with a bleeding-edge stack including Rust, C++, TypeScript, and Bun.js, Revenant fundamentally redefines system management. We believe in tools that are elegant, deeply hackable, and operate with silent efficiency.
+🧩 Core Projects: The Building Blocks of Revenant
 
-**Revenant** is a modular ecosystem of performance-focused, low-level tools for Windows — built for control, speed, and clarity.  
-Crafted with Rust, C++, TypeScript, and Bun.js, Revenant rethinks what system utilities can be: elegant, hackable, and dead quiet.
+Discover the individual components that make Revenant a powerful and versatile platform:
 
----
+    Rift 📦 — A blazingly fast, Scoop-compatible package manager, engineered in Rust1. Experience enhanced safety, intelligent caching, and parallel downloads for a superior package management experience.
 
-## 🧩 Core Projects
+    Grim 🧠 — Your local-first AI assistant for the terminal. Grim offers contextual memory and seamless integration for intelligent command-line assistance.
 
-- **Rift** — A fast, Scoop-compatible package manager written in Rust[^1]  
-- **Grim** — Local-first terminal AI assistant with contextual memory  
-- **Invoke** — TypeScript + Bun.js gateway to Claude Code and external AI providers  
-- **RevenantUI** — Remote system management via Discord (C++ frontend, Bun.js backend)  
-- **Specter** — Windows theming / ricing utility with declarative config  
-- **Wraith** — Minimal, reactive system monitor with RevenantOS visuals[^2]
+    Invoke ⚡ — A modern TypeScript and Bun.js gateway, connecting you to Claude Code and other leading AI providers. Effortlessly integrate powerful AI capabilities into your workflows.
 
----
 
-## ✴️ Design Philosophy
+    RevenantUI 🎨 — Intuitive remote system management accessible directly through Discord. Features a C++ frontend and a robust Bun.js backend for seamless control.
 
-> *Minimal by default. Powerful by design.*  
+    Specter 🖼️ — A sophisticated Windows theming and customization utility, powered by declarative configuration for effortless personalization.
 
-Revenant tools are meant to stay quiet until needed — then act instantly. Each project is modular, scriptable, and designed with power users in mind.  
-No clutter, no daemons, no unnecessary abstractions.
+    Wraith 📊 — A minimal yet reactive system monitor, featuring the distinct RevenantOS visual aesthetic2. Keep an eye on your system's performance with understated elegance.
 
----
+✴️ Design Philosophy: Precision and Purpose
 
-## 📁 Stack
+    Minimal by default. Powerful by design.
 
-- **Languages:** Rust · C++ · TypeScript · Zig (experimental)  
-- **Runtime:** Bun.js · WSL2 · Native  
-- **UX Goals:** CLI-first · Declarative configs · Low memory overhead  
+Revenant tools are engineered to be unobtrusive, operating silently until explicitly invoked, at which point they deliver instantaneous and precise action. Each project is deliberately modular, fully scriptable, and built with the discerning power user in mind. We eliminate clutter, avoid persistent daemons, and reject unnecessary abstractions to provide a streamlined and efficient experience.
+📁 The Revenant Stack: Engineering Excellence
 
----
+    Languages: Rust · C++ · TypeScript · Zig (experimental)
 
-[^1]: `rift` uses a Scoop-style bucket system but with modern Rust safety, better caching, and parallel downloads.  
-[^2]: Wraith is optionally skinnable via RevenantUI’s theme pipeline.
+    Runtime & Environment: Bun.js · WSL2 · Native Windows
 
+    User Experience: CLI-first · Declarative Configuration · Ultra-low Memory Overhead
