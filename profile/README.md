@@ -6,5 +6,3 @@ Crafted with Rust, C++, TypeScript, and Bun.js, Revenant rethinks what windows s
 
 [^1]: `rift` uses a Scoop-style bucket system but with modern Rust safety, better caching, and parallel downloads.  
 [^2]: Wraith is optionally skinnable via RevenantUI’s theme pipeline.
-
-ye
